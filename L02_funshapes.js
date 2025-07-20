@@ -1,9 +1,18 @@
 /*
 Task 1: Add the setup() function
 */
-
+function setup() {
+   createCanvas(600,400);
+   background(220);//background(r, g, b)0-255eg. background(---,---,---)
+}
 function draw() {
-  // Challenge 1: An eye using ellipse() function
+// ellipse(100, 100, 80, 50);
+// ellipse(200, 100, 80, 50);
+// circle(300, 200, 150);
+// circle(300, 200, 100);                          ; is used. when dun hv can still work but when have alot
+// rect(100, 100, 100, 150, 30, 10, 15, 5) ;             of codes, sometimes might not work
+triangle(30, 75, 58, 20, 86, 75);
+triangle(20, 40, 75, 40, 57, 32); 
 
   // Challenge 2: A face using circle() function
 
