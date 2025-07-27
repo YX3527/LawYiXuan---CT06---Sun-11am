@@ -31,7 +31,8 @@ function draw() {
 
 stroke(255, 165, 0);  //orange
 strokeWeight(14);  //thickness
-fill
+fill(221,160,221)
+
 
   // Challenge 2: A face using circle() function
 
