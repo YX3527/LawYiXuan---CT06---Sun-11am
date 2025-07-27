@@ -14,7 +14,8 @@ function draw() {
 //triangle(30, 75, 58, 20, 86, 75);
 //triangle(20, 40, 75, 40, 57, 32); 
 quad(20, 3, 20, 80, 20, 80, 80, 20, 80);//square
-quad(120, 30, 180, 30, 180, 70, 120, 700
+quad(120, 30, 180, 30, 180, 70, 120, 70);
+quad
 
   // Challenge 2: A face using circle() function
 
