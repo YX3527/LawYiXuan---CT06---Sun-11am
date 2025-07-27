@@ -20,6 +20,7 @@ function draw() {
 
 fill(255,192,203)
 circle(300, 200, 150);
+fill()
   // Challenge 2: A face using circle() function
 
   // Challenge 3: A house using rect() function
