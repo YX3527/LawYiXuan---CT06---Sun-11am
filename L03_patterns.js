@@ -10,10 +10,11 @@ function setup() {
 //     circle(225, 200, 100);
 //     circle(375, 200, 100);
 //     circle(525, 200);
-
 for(let i=0; i<4; i++) {
   circle(50 + i*50, 200, 40);
 }
+
+
 
 
   // Recap 1: Repeating Circles
