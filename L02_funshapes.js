@@ -6,7 +6,7 @@ function setup() {
    background(220);//background(r, g, b)0-255eg. background(---,---,---)
 }
 function draw() {
-// ellipse(100, 100, 80, 50);        x, y
+// ellipse(100, 100, 80, 50);        x, y, width, height
 // ellipse(200, 100, 80, 50);
 // circle(300, 200, 150);
 // circle(300, 200, 100);                          ; is used. when dun hv can still work but when have alot
