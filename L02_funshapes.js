@@ -18,7 +18,7 @@ function draw() {
 //quad(50, 162, 86, 150, 50, 138, 14, 150);
 //quad(120, 150, 180, 130, 180, 170, 120, 170);
 
-fill
+fill(255,192,203)
   // Challenge 2: A face using circle() function
 
   // Challenge 3: A house using rect() function
