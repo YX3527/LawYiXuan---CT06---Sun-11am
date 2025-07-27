@@ -23,7 +23,7 @@ circle(300, 200, 150);
 fill(255,105,180)
 quad(120, 150, 180, 130, 180, 170, 120, 170);
 fill(100,149,237)
-
+quad(120, 30, 180, 30, 180, 70, 120, 70);
 
   // Challenge 2: A face using circle() function
 
