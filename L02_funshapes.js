@@ -27,6 +27,7 @@ quad(120, 30, 180, 30, 180, 70, 120, 70);
 fill(106,90,205)
 triangle(20, 40, 75, 40, 57, 32); 
 fill(230,230,250)
+ellipse(200, 100, 80, 50);
 
 
   // Challenge 2: A face using circle() function
