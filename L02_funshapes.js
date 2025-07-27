@@ -29,9 +29,9 @@ function draw() {
 // fill(230,230,250)
 // ellipse(200, 100, 80, 50);
 
-stroke(255, 165, 0);  //orange
-strokeWeight(14);  //thickness
-fill(221,160,221)
+// stroke(255, 165, 0);  //orange
+// strokeWeight(14);  //thickness
+// fill(221,160,221)
  
 
   // Challenge 2: A face using circle() function
