@@ -32,7 +32,7 @@ function draw() {
 // stroke(255, 165, 0);  //orange
 // strokeWeight(14);  //thickness
 // fill(221,160,221)
- src="L03_patterns.js"></script>
+ 
 
   // Challenge 2: A face using circle() function
 
