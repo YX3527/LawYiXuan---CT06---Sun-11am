@@ -9,7 +9,7 @@ function draw() {
     circle(75, 200, 100);
     circle(225, 200, 100);
     circle(375, 200, 100);
-    circle(525);
+    circle(525, 200, 100);
 
   // Recap 1: Repeating Circles
 
