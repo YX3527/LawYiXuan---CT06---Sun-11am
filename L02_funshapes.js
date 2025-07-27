@@ -30,7 +30,7 @@ function draw() {
 // ellipse(200, 100, 80, 50);
 
 stroke(255, 165, 0);  //orange
-strokeWeight
+strokeWeight(14);
 
   // Challenge 2: A face using circle() function
 
