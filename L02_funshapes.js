@@ -7,7 +7,7 @@ function setup() {
 }
 function draw() {
 // ellipse(100, 100, 80, 50);       // x, y, width, height
-// ellipse(200, 100, 80, 50);       // 
+// ellipse(200, 100, 80, 50);       // x, y, diametre
 // circle(300, 200, 150);
 // circle(300, 200, 100);                          ; is used. when dun hv can still work but when have alot
 // rect(100, 100, 100, 150, 30, 10, 15, 5) ;             of codes, sometimes might not work
