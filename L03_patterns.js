@@ -11,7 +11,7 @@ function setup() {
 //     circle(375, 200, 100);
 //     circle(525, 200);
 
-for(let i=0; i>4; i++) {
+for(let i=0; i<4; i++) {
   circle(50 + i*5, 200, 40);
 }
 
