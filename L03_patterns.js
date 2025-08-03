@@ -36,7 +36,9 @@ function setup() {
 // }
 
 
-let
+function draw() {
+  
+}
 
 
 
