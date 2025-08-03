@@ -39,7 +39,7 @@ function setup() {
 function draw() {
   let diameter = 30;
   let numCircles = 5;
-  let totalWidth
+  let totalWidth = diameter
 }
 
 
