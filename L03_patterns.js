@@ -6,28 +6,28 @@ function setup() {
     // noLoop(); // Stops continuous drawing
   }
   
-function draw() {
+// function draw() {
 //     fill(0, 0, 255)
 //     circle(75, 200, 100);
 //     circle(225, 200, 100);
 //     circle(375, 200, 100);
 //     circle(525, 200);
-for(let i=0; i<5; i++) {
+// for(let i=0; i<5; i++) {
   //fill(i*50); //fill(r, g, b)
   // fill(0, 0, i*spacing)                      //spacing must write on the top if not they dunno where what spacing is. 
   // fill(colourValue%225); 
-  if (i%2 === 0)  {
-     fill(0);
-  } else {
-    fill(255);
-  }
-     circle(spacing + i*spacing, 200, 40);
-     rect(spacing + i*spacing, 250, 50, 50);
+  // if (i%2 === 0)  {
+  //    fill(0);
+  // } else {
+  //   fill(255);
+  // }
+  //    circle(spacing + i*spacing, 200, 40);
+  //    rect(spacing + i*spacing, 250, 50, 50);
 
   // colourValue +=1; // colourValue = colourValue + 1; 
 
-}
-}
+// }
+// }
 
   // Recap 1: Repeating Circles
 
