@@ -37,7 +37,8 @@ function setup() {
 
 
 function draw() {
-  let diametre
+  let diameter = 30;
+  
 }
 
 
