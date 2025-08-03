@@ -11,7 +11,8 @@ function draw() {
 //     circle(375, 200, 100);
 //     circle(525, 200);
 for(let i=0; i<5; i++) {
-  fill(i*50); //fill(r, g, b)
+  //fill(i*50); //fill(r, g, b)
+  
   circle(50 + i*50, 200, 40);
 }
 }
