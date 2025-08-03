@@ -17,14 +17,17 @@ for(let i=0; i<5; i++) {
   // fill(0, 0, i*spacing)                      //spacing must write on the top if not they dunno where what spacing is. 
   // fill(colourValue%225); 
   if (i%2 === 0)  {
-    fill
+     fill(0)
+  } else {
+    fill(255);
   }
-  circle(spacing + i*spacing, 200, 40);
+     circle(spacing + i*spacing, 200, 40);
+     rect(spacing, i*spacing, 250, 50, 50);
+
   // colourValue +=1; // colourValue = colourValue + 1; 
+
 }
 }
-
-
 
   // Recap 1: Repeating Circles
 
