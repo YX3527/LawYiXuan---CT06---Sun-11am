@@ -17,7 +17,7 @@ for(let i=0; i<5; i++) {
   // fill(0, 0, i*spacing)                      //spacing must write on the top if not they dunno where what spacing is. 
   fill(colourValue%225); 
   circle(spacing + i*spacing, 200, 40);
-  
+  colourValue
 }
 }
 
