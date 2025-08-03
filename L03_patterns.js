@@ -29,11 +29,11 @@ function setup() {
 // }
 // }
 
-function draw() {
-  rect(0, 100, width, 200);
-  circle(width/2, height/2, 100);
-  
-}
+// function draw() {
+//   rect(0, 100, width, 200);
+//   circle(width/2, height/2, 100);
+
+// }
 
 
 
