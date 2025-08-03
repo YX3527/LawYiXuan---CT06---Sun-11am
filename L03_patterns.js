@@ -30,7 +30,8 @@ function setup() {
 // }
 
 function draw() {
-  React(0, 100, width, )
+  React(0, 100, width, );
+  CSSNumericValue()
 }
 
 
