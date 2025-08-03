@@ -31,7 +31,7 @@ function setup() {
 
 function draw() {
   React(0, 100, width, );
-  circle(width/2)
+  circle(width/2, height/2)
 }
 
 
