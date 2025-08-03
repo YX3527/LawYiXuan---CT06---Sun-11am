@@ -38,6 +38,7 @@ function setup() {
 
 function draw() {
   let diameter = 30;
+  let numCircles = 5;
   
 }
 
