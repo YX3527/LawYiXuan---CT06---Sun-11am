@@ -4,7 +4,7 @@ function setup() {
     // noLoop(); // Stops continuous drawing
   }
   
-// function draw() {
+function draw() {
 //     fill(0, 0, 255)
 //     circle(75, 200, 100);
 //     circle(225, 200, 100);
@@ -13,7 +13,7 @@ function setup() {
 for(let i=0; i<4; i++) {
   circle(50 + i*50, 200, 40);
 }
-
+}
 
 
 
