@@ -30,7 +30,7 @@ function setup() {
 // }
 
 function draw() {
-  React(0, 100, width, );
+  React(0, 100, width, 500);
   circle(width/2, height/2, 100);
 }
 
