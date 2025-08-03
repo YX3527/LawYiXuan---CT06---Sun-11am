@@ -13,7 +13,7 @@ function draw() {
 //     circle(525, 200);
 for(let i=0; i<5; i++) {
   //fill(i*50); //fill(r, g, b)
-  fill(0, 0, i*spacing)                      //
+  fill(0, 0, i*spacing)                      //spacing must write on the top if not dunno where 
   circle(spacing + i*spacing, 200, 40);
 }
 }
