@@ -30,7 +30,7 @@ function setup() {
 // }
 
 function draw() {
-  React(0, 100, innerWidth, )
+  React(0, 100, width, )
 }
 
 
