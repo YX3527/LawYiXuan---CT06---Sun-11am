@@ -75,4 +75,6 @@ function setup(){
 //     shapeColour = 'white'; 
 // }
 
-function mouseMoved()
+function mouseMoved(){
+    circle
+}
