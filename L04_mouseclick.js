@@ -21,7 +21,7 @@ function setup(){
 }
 
 function draw(){
-    fill(shapecolour);
+    fill(shapeColour);
     circle(width/2, height/2, 100);
 }
 
