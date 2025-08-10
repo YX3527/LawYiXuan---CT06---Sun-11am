@@ -83,5 +83,5 @@ function setup(){
 }
 
 function mouseMoved(){
-    //circle()
+    //circle(mouseX, mouseY)
 }
