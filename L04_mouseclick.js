@@ -13,6 +13,7 @@
 //     }
 // }
 
+let shapeColour = 'blue';
 
 function setup(){
     createCanvas(600, 600)
@@ -25,9 +26,9 @@ function draw(){
 }
 
 function mousePressed(){
-    shapecolour = 'blue'; 
+    shapeColour = 'red'; 
 }
 
 function mouseReleased(){
-    
+    shapeColour = 'green';
 }
