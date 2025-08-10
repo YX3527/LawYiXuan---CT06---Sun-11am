@@ -65,7 +65,7 @@ let diameter = 50;
 let startY = (height-totalWidth)/2 + diameter/2
 
   for(let j = 0; j<5; j++)  {
-    y(startX + i*diameter, height/2, diameter);  
+    y = startY + j*diameter
   }
 }
 
