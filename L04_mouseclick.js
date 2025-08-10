@@ -72,5 +72,5 @@ function mousePressed(){
 }
 
 function mouseReleased(){
-    shapeColour = 'pink'; 
+    shapeColour = 'white'; 
 }
