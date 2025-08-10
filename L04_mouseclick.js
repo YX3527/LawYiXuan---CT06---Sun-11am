@@ -75,6 +75,13 @@
 //     shapeColour = 'white'; 
 // }
 
+
+function setup(){
+    createCanvas(600, 600)
+    background(220)
+    fill(0, 25, 0)
+}
+
 function mouseMoved(){
     circle
 }
