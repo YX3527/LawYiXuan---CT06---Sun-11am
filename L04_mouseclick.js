@@ -75,3 +75,4 @@ function setup(){
 //     shapeColour = 'white'; 
 // }
 
+function mouseMoved()
