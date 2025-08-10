@@ -50,7 +50,7 @@ function setup() {
 
 
 function draw(){
-  let circleDiameter
+  let circleDiameter = 30;
 }
   // Recap 1: Repeating Circles
 
