@@ -8,7 +8,7 @@ function setup(){
 
 function draw(){
     for(let i=0; i<5; i++){
-        fill
+        FileList(0, i*50)
         circle()
     }
 }
