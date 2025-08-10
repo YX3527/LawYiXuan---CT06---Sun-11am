@@ -55,22 +55,23 @@
 // }
 
 
-let shapeColour = 'white';
+// let shapeColour = 'white';
 
-function setup(){
-    createCanvas(600, 600);
-    background(220);
-}
+// function setup(){
+//     createCanvas(600, 600);
+//     background(220);
+// }
 
-function draw(){
-    fill(shapeColour);
-    circle(width/2, height/2, 100);
-}
+// function draw(){
+//     fill(shapeColour);
+//     circle(width/2, height/2, 100);
+// }
 
-function mousePressed(){
-     shapeColour = color(random(255), random(255), random(255));
-}
+// function mousePressed(){
+//      shapeColour = color(random(255), random(255), random(255));
+// }
 
-function mouseReleased(){
-    shapeColour = 'white'; 
-}
+// function mouseReleased(){
+//     shapeColour = 'white'; 
+// }
+
