@@ -62,7 +62,7 @@ let diameter = 50;
   let totalWidth = diameter*numCircles;  
   //  let startX = (width - totalWidth)/2 + diameter/2;
 let startX = diameter/2;
-
+let startY = 
 // let startY = (height-totalWidth)/2 + diameter/2
 
   for(let j = 0; j<5; j++)  {
