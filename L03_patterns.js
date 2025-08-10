@@ -67,7 +67,7 @@ let startY
   for(let i = 0; i<5; i++)  {
      circle(startX + i*diameter, height/2, diameter);  
   }
-}3
+}
 
 
 
