@@ -67,7 +67,7 @@ let startY = (height-totalWidth)/2 + diameter/2
   for(let j = 0; j<5; j++)  {
        y = startY + j*diameter;
       for(let i=0; i<5; i++)  {
-          circle(startX + i*diameter)
+          circle(startX + i*diameter, y, )
     }
   }
 }
