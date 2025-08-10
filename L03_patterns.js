@@ -51,7 +51,8 @@ function setup() {
 
 function draw(){
   let circleDiameter = 30;
-  let numCircles = 5;
+  let numCircles = 5; 
+  total
 }
   // Recap 1: Repeating Circles
 
