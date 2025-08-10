@@ -33,3 +33,23 @@
 //     shapeColour = 'purple';
 // 
 
+
+let shapeColour = 'blue';
+
+function setup(){
+    createCanvas(600, 600);
+    background(220);
+}
+
+function draw(){
+    fill(shapeColour);
+    circle(width/2, height/2, 100);
+}
+
+function mousePressed(){
+    shapeColour = 'pink'; 
+}
+
+function mouseReleased(){
+    shapeColour = 'purple';
+}
