@@ -49,11 +49,11 @@ function setup() {
 
 
 
-function draw(){
-  let circleDiameter = 30;
-  let numCircles = 5; 
+// function draw(){
+//   let circleDiameter = 30;
+//   let numCircles = 5; 
  
-}
+// }
   // Recap 1: Repeating Circles
 
   // Task 1: Colour Gradient
