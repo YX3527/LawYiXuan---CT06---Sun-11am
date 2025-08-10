@@ -64,7 +64,7 @@ let diameter = 50;
 //let startX = diameter/2
 let startY = (height-totalWidth)/2 + diameter/2
 
-  for(let j = 0; j<5; i++)  {
+  for(let j = 0; j<5; j++)  {
      circle(startX + i*diameter, height/2, diameter);  
   }
 }
