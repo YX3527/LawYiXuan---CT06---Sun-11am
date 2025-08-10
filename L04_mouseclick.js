@@ -16,12 +16,12 @@
 let shapeColour = 'blue';
 
 function setup(){
-    createCanvas(600, 600)
-    background(220)
+    createCanvas(600, 600);
+    background(220);
 }
 
 function draw(){
-    fill(shapecolour)
+    fill(shapecolour);
     circle(width/2, height/2, 100);
 }
 
