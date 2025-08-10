@@ -51,5 +51,5 @@ function mousePressed(){
 }
 
 function mouseReleased(){
-    shapeColour = 'purple';
+    shapeColour = colour
 }
