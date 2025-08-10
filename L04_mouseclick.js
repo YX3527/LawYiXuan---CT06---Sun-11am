@@ -79,7 +79,7 @@
 function setup(){
     createCanvas(600, 600)
     background(220)
-    fill(0, 25, 0)
+    fill(0, 200, 0)
 }
 
 function mouseMoved(){
