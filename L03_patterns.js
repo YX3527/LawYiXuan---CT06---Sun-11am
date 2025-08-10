@@ -54,6 +54,25 @@ function setup() {
 //   let numCircles = 5; 
  
 // }
+
+
+ function draw() {
+/  let diameter = 30;
+//   let numCircles = 5;
+//   let totalWidth = diameter*numCircles;
+//   let startX = (width - totalWidth)/2 + diameter/2;
+
+//   for(let i = 0; i<5; i++)  {
+//     circle(startX + i*diameter, height/2, diameter);  
+//   }
+// }
+
+
+
+
+
+
+
   // Recap 1: Repeating Circles
 
   // Task 1: Colour Gradient
