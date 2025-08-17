@@ -38,5 +38,5 @@ function draw(){
     let centerY = height/2;
     let topLeftX = centerX -rectSize/2
     let topLeftY = centerY -rectSize/2
-    rectResize(topLeftX, topLeftY)
+    rectResize(topLeftX, topLeftY, rectSize, )
 }
