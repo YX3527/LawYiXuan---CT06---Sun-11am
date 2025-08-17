@@ -28,15 +28,15 @@
 //     circleSize += 0.5;
 // }
 
-let rectResize =50;
-function setup(){
-    createCanvas(400, 400)
-}
-function draw(){
-    background(220);
-    let centerX = width/2;
-    let centerY = height/2;
-    let topLeftX = centerX -rectResize/2;
-    let topLeftY = centerY -rectResize/2;
-    rect(topLeftX, topLeftY, rectResize, rectResize);
-}
+// let rectResize =50;
+// function setup(){
+//     createCanvas(400, 400)
+// }
+// function draw(){
+//     background(220);
+//     let centerX = width/2;
+//     let centerY = height/2;
+//     let topLeftX = centerX -rectResize/2;
+//     let topLeftY = centerY -rectResize/2;
+//     rect(topLeftX, topLeftY, rectResize, rectResize);
+// }
