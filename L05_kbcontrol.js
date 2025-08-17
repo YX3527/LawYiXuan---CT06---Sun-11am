@@ -13,7 +13,6 @@
 
 let shapeColor ='blue';
 let circleSize =5;
-
 function setup(){
     createCanvas(400,400);
     background(220);
@@ -28,3 +27,4 @@ function mouseDragged(){
     ellipse(mouseX,mouseY, circleSize,circleSize);
     circleSize += 0.5;
 }
+
