@@ -19,5 +19,5 @@ function setup(){
     nostroke();
 }
 function mousePressed(){
-    shapeColour= color(random(225, random(225, random(225))))
+    shapeColour= color(random(225), random(225), random(225))
 }
