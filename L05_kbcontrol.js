@@ -33,7 +33,7 @@ function setup(){
     createCanvas(400, 400)
 }
 function draw(){
-    background(220);     
+    background(220);
     let centerX = width/2;
     let centerY = height/2;
     let topLeftX = centerX -rectSize/2
