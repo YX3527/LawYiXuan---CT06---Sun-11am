@@ -25,5 +25,5 @@ function mousePressed(){
 function mouseDragged(){
     FileList(shapeColor);
     ellipse(mouseX, mouseY, circleSize, circleSize);
-    circleSize
+    circleSize += 0.5
 }
