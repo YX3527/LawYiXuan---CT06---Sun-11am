@@ -49,5 +49,5 @@ function setup(){
     noStroke()
 }
 function keyPressed(){
-    let count = floor
+    let count = floor(random(5, 21))
 }
