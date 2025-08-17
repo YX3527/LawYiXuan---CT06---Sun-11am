@@ -23,8 +23,9 @@ function mousePressed(){
     shapeColour= color(random(225), random(225), random(225))
     circleSize =5;
 }
+
 function mouseDragged(){
-    FileList(shapeColor);
+    fill(shapeColor);
     ellipse(mouseX, mouseY, circleSize, circleSize);
     circleSize += 0.5;
 }
