@@ -1,11 +1,23 @@
 // write your codes here
 
+// function setup(){
+//     createCanvas(600, 600)
+//     background(220)
+//     fill(0, 200, 0)
+// }
+// function mouseMoved(){
+//     circle(mouseX, mouseY, 50)
+    //rect(mouseX, mouseY, 50, 50)
+// }
+
+
+let shapeColour = "blue"
+let circlesize =5;
 function setup(){
-    createCanvas(600, 600)
+    createCanvas(400, 400)
     background(220)
-    fill(0, 200, 0)
+    nostroke();
 }
-function mouseMoved(){
-    circle(mouseX, mouseY, 50)
-    rect(mouseX, mouseY, 50, 50)
+function mousePressed(){
+    shapeColour= color(random(225, random(225, random(225))))
 }
