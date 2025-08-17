@@ -16,7 +16,7 @@ let circleSize = 5;
 function setup(){
     createCanvas(400, 400)
     background(220)
-    nostroke();
+    noStroke();
 }
 function mousePressed(){
     shapeColour= color(random(225), random(225), random(225))
