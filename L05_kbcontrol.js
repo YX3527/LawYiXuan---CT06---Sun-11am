@@ -29,4 +29,6 @@
 // }
 
 let rectResize =50
-functionetup
+function setup(){
+    
+}
