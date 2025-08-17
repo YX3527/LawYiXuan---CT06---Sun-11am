@@ -36,5 +36,4 @@ function draw(){
     background(220);
     let centerX = width/2;
     let centerY = height/2;
-    
 }
