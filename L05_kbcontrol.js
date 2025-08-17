@@ -9,9 +9,3 @@
 //     circle(mouseX, mouseY, 50)
     //rect(mouseX, mouseY, 50, 50)
 // }
-
-
-let shapeColour = "blue"
-function setup(){
-    
-}
