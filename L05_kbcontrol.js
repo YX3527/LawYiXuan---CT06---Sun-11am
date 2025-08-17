@@ -29,4 +29,4 @@
 // }
 
 let rectResize =50
-fn
+functionetup
