@@ -23,5 +23,5 @@ function mousePressed(){
     circleSize =5;
 }
 function mouseDragged(){
-    
+    FileList(shapeColor)
 }
