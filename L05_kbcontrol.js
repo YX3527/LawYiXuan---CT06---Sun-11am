@@ -30,5 +30,5 @@
 
 let rectResize =50
 function setup(){
-    
+    createCanvas
 }
