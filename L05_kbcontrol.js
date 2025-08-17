@@ -28,4 +28,5 @@
 //     circleSize += 0.5;
 // }
 
-let rectResize
+let rectResize =50
+fn
