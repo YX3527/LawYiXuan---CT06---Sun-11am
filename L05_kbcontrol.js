@@ -50,5 +50,15 @@ function setup(){
 }
 function keyPressed(){
     let count = floor(random(5, 21));
-    
+    for(let i=0; i<count; i++){
+        //random size
+        let s = random(10, 80);
+        //random position
+        let x = random(s/2, width -s/2);
+        let y = random(s/2, height -s/2);
+        //random fill
+        fill(random(225), random(225), random(225));
+        //create circle
+        ellipse( x, y, s, s)
+    }
 }
