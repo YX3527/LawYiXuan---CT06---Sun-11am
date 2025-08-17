@@ -45,5 +45,6 @@
 
 function setup(){
     createCavas(400, 400)
-    background
+    background(220)
+    noStroke
 }
