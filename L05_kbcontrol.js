@@ -7,6 +7,6 @@ function setup(){
 }
 
 function mouseMoved(){
-    //circle(mouseX, mouseY, 50)
-    rect(mouseX, mouseY, 50, 50)
+    circle(mouseX, mouseY, 50)
+    //rect(mouseX, mouseY, 50, 50)
 }
