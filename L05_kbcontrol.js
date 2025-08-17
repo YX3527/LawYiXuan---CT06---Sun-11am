@@ -44,7 +44,7 @@
 
 
 function setup(){
-    createCavas(400, 400)
+    createCanvas(400, 400)
     background(220) 
     noStroke()
 }
@@ -61,4 +61,8 @@ function keyPressed(){
         //create circle
         ellipse( x, y, s, s)
     }
+}
+
+function keyReleased(){
+    background(220);
 }
