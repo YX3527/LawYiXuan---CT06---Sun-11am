@@ -62,7 +62,7 @@ function keyPressed(){
         ellipse( x, y, s, s)
     }
 }
-key
+function keyReleased()
 
 function keyReleased(){
     background(220);
