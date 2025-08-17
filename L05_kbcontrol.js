@@ -20,4 +20,5 @@ function setup(){
 }
 function mousePressed(){
     shapeColour= color(random(225), random(225), random(225))
+    circleSize
 }
