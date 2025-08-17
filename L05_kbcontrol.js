@@ -12,7 +12,7 @@
 
 
 let shapeColour = "blue"
-let circleSize =5;
+let circleSize = 5;
 function setup(){
     createCanvas(400, 400)
     background(220)
@@ -25,5 +25,5 @@ function mousePressed(){
 function mouseDragged(){
     FileList(shapeColor);
     ellipse(mouseX, mouseY, circleSize, circleSize);
-    circleSize += 0.5
+    circleSize += 0.5;
 }
