@@ -44,5 +44,5 @@
 
 
 function setup(){
-    
+    createCavas
 }
