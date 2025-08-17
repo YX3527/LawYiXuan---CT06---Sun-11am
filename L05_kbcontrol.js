@@ -24,5 +24,6 @@ function mousePressed(){
 }
 function mouseDragged(){
     FileList(shapeColor);
-    ellipse(mouseX, mouseY, circleSize, )
+    ellipse(mouseX, mouseY, circleSize, circleSize);
+    
 }
