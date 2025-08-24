@@ -71,4 +71,4 @@
 // let c = 7;
 // console.log(a===b);
 
-let showCircle
+let showCircle = false;
