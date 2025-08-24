@@ -72,3 +72,6 @@
 // console.log(a===b);
 
 let showCircle = false;
+function setup(){
+    
+}
