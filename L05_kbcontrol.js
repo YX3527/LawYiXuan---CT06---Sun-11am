@@ -73,5 +73,8 @@
 
 let showCircle = false;
 function setup(){
-    
+
+}
+function draw(){
+
 }
