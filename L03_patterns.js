@@ -1,7 +1,7 @@
 //let spacing = 80; 
 // let colourValue = 0; 
 function setup() {
-    createCanvas(600, 400);                         //width then height eg.(width,height)...4,2 etc. 
+    createCanvas(600, 400);                         //width then height eg.(width,height)
     background(220);
     // noLoop(); // Stops continuous drawing
   }
