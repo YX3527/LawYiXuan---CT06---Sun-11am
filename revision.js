@@ -3,5 +3,4 @@
 function setup() {
    createCanvas(600,400);
    background(220);}
-   rect=5
-rect(5, 5, 5, 5)
+rect()
