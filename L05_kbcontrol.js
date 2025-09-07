@@ -71,18 +71,62 @@
 // let c = 7;
 // console.log(a===b);
 
-let showCircle = false;
-function setup(){
-    createCanvas(600, 600)
+// let showCircle = false;
+// function setup(){
+//     createCanvas(600, 600)
+// }
+// function draw(){
+// background(220)
+// if (showCircle){
+// circle(width/2, height/2, 100);
+// }
+// }
+// function keyPressed(){
+//     if(key == 'c'){
+//         showCircle = !showCircle;
+//     }
+// }
+
+// function setup() {
+//     createCanvas(200, 200); 
+// }
+// function draw(){
+//     background(220);
+//     if (key == 'c'){
+//         circle(width/2, height/2, 50);
+//     }
+//     if (key == 't'){
+//         triangle(width/2, height/2-25, width/2-25, height/2+25, width/2+25, height/2+25);
+//     }
+//     if (key == 's'){
+//         rect(width/2-25, height/2-25, 50, 50);
+//         //if want to be for a square:square(width/2-25, height/2-25,50)
+//     }
+// }
+
+
+// function setup(){
+
+// }
+// function keyPressed(){
+//     console.log("key:", key);
+//     console.log("keyCode:", keyCode);
+// }
+
+let shapeColor = 'blue';
+function setup() {
+    createCanvas(200, 200);
+     background(220);
 }
-function draw(){
-background(220)
-if (showCircle){
-circle(width/2, height/2, 100);
-}
-}
-function keyPressed(){
-    if(key == 'c'){
-        showCircle = !showCircle;
-    }
-}
+// function draw() {
+//     background(220);
+//     if(keyCode == 38) (
+//             shapeColor = 'red';
+//     )
+//     if(keyCode == 40) (
+//             shapeColor = 'black';
+//     )
+
+//     fill(shapeColor)
+//     circle(width/2, height/2, 50);
+// }
