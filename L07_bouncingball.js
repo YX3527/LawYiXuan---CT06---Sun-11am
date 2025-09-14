@@ -6,6 +6,6 @@ function setup() {
 function draw(){
      background(220);
     if(keyIsDown(RIGHT_ARROW)){
-        x +=
+        x +=2 ;
     }}
     circle(x, y, 50)
