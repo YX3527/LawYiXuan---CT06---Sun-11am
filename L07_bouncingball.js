@@ -7,6 +7,7 @@ function setup() {
 function draw(){
      background(220);
      //constrain within the canvas
+     x = constrain
     if(keyIsDown(RIGHT_ARROW)){
         x +=2 ;
     }if(keyIsDown(LEFT_ARROW)){
