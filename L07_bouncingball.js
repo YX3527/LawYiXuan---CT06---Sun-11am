@@ -8,6 +8,6 @@ function draw(){
     if(keyIsDown(RIGHT_ARROW)){
         x +=2 ;
     }if(keyIsDown(LEFT_ARROW)){
-        
+        x +=-2
     }}
     circle(x, y, 50)
