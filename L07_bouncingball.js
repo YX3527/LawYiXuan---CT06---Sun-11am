@@ -8,6 +8,7 @@ function draw(){
      background(220);
      //constrain within the canvas
      x = constrain(x, 25, width-25);
+     y = 
     if(keyIsDown(RIGHT_ARROW)){
         x +=2 ;
     }if(keyIsDown(LEFT_ARROW)){
