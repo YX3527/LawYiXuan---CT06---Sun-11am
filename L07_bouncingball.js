@@ -26,5 +26,5 @@ let staticImage;
 let soundEffect;
 
 function preloaded(){
-    s
+    ststicImage
 }
