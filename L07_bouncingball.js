@@ -17,5 +17,6 @@ function draw(){
     if(keyIsDown(UP_ARROW))
         y-=2
     if(keyIsDown(DOWN_ARROW))
+        
     circle(x, y, 50)
 }
