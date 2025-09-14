@@ -27,5 +27,5 @@ let soundEffect;
 
 function preloaded(){
     staticImage = loadImage("assets/pico-a.png");
-    staticImage = loadImage("")
+    staticImage = loadSound("")
 }
