@@ -6,6 +6,7 @@ function setup() {
     createCanvas(400, 400);}
 function draw(){
      background(220);
+     //
     if(keyIsDown(RIGHT_ARROW)){
         x +=2 ;
     }if(keyIsDown(LEFT_ARROW)){
