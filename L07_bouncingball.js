@@ -24,8 +24,17 @@
 
 let staticImage;
 let soundEffect;
+let x =200; 
+let y=200;
 
 function preloaded(){
     staticImage = loadImage("assets/pico-a.png");
-    staticImage = loadSound("")
+    staticImage = loadSound("assets/pop.mp3")
+}
+function setup(){
+    createCanvas(400, 400)
+}
+function draw(){
+    background('lightblue');
+    Image(staticImage, x, y, 80)
 }
