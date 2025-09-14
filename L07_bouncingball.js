@@ -12,10 +12,10 @@ function draw(){
     if(keyIsDown(RIGHT_ARROW)){
         x +=2 ;
     }if(keyIsDown(LEFT_ARROW)){
-        x -=2
+        x -=2;
     }
     if(keyIsDown(UP_ARROW))
-        y-=2
+        y-=2;
     if(keyIsDown(DOWN_ARROW))
         x+= 2;
     circle(x, y, 50)
