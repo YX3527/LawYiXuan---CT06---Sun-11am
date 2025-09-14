@@ -1,7 +1,7 @@
 // write your codes here
 let x=200;
 let y=200;
-let speed= 2
+let speed= 2;
 function setup() {
     createCanvas(400, 400);}
 function draw(){
