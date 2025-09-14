@@ -113,11 +113,11 @@
 //     console.log("keyCode:", keyCode);
 // }
 
-let shapeColor = 'blue';
-function setup() {
-    createCanvas(200, 200);
-     background(220);
-}
+// let shapeColor = 'blue';
+// function setup() {
+//     createCanvas(200, 200);
+//      background(220);
+// }
 // function draw() {
 //     background(220);
 //     if(keyCode == 38) (
@@ -130,3 +130,25 @@ function setup() {
 //     fill(shapeColor)
 //     circle(width/2, height/2, 50);
 // }
+
+
+let shapeColor = 'blue';
+
+function setup() {
+    createCanvas(200, 200);
+}
+
+function draw() {
+    background(220); 
+
+    if(keyCode == 38) {
+        shapeColor = 'red';
+    }
+
+    if(keyCode == 40) {
+        shapeColor = 'black';
+    }
+
+    fill(shapeColor);
+    circle(width/2, height/2, 50); 
+}
