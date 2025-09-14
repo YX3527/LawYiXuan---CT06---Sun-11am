@@ -136,11 +136,10 @@ let shapeColor = 'blue';
 
 function setup() {
     createCanvas(200, 200);
-    background(220); 
 }
 
 function draw() {
-
+    background(220); 
     if(keyCode == 38) {
         shapeColor = 'red';
     }
