@@ -22,4 +22,4 @@
 // }
 
 
-let staticI
+let staticImage;
