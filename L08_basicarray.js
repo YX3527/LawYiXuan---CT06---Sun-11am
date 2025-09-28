@@ -79,7 +79,7 @@ function draw (){
 
     background(0);
 
-    text("My Favourite Foods are: ", width/2, 50);
+    //text("My Favourite Foods are: ", width/2, 50);
 
     for(let i = 0;i<favouriteFoods.length;i++) {
         text((i+1)+ "." + favouriteFoods[i], width/2, yPos + i*50);
