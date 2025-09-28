@@ -6,6 +6,6 @@
      background(220)
 
     fill(25, 5,5);
-    text("My name is Yi Xuan", 50, 50);
+    text("BOUNCE !", 50, 50);
      textSize(16);
     }
