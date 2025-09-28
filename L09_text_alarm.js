@@ -3,6 +3,8 @@
 
  function setup() {
      createCanvas(600, 600);
+
+     textSize(24)
      background(220)
 
     fill(25, 5,5);
