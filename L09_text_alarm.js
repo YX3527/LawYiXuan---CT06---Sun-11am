@@ -2,7 +2,7 @@
 
 
  function setup() {
-     createCanvas(400, 400);
+     createCanvas(600, 600);
      background(220)
 
     fill(25, 5,5);
