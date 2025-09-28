@@ -67,7 +67,7 @@
 
 let favouriteFoods=["Pizza", "Burger", "Sushi", "Tacos","Pasta"];
 let yPos;
-function setup (){
+function setup(){
     createCanvas(600, 600);
 
     fill(255, 255, 0);
@@ -76,7 +76,7 @@ function setup (){
 
     yPos=height;
 }
-function draw (){
+function draw(){
 
     background(0);
 
