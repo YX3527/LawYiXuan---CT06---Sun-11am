@@ -44,19 +44,19 @@
 
 
 
-let favouriteFoods=["Pizza", "Burger", "Sushi", "Tacos","Pasta"];
-function setup (){
-    createCanvas(400, 400)
-    textSize(24);
-    textAlign(LEFT, TOP)
-}
-function draw (){
-    background(220)
+// let favouriteFoods=["Pizza", "Burger", "Sushi", "Tacos","Pasta"];
+// function setup (){
+//     createCanvas(400, 400)
+//     textSize(24);
+//     textAlign(LEFT, TOP)
+// }
+// function draw (){
+//     background(220)
 
-    fill(0);
-    text("My Favourite Foods:", 50, 50)
+//     fill(0);
+//     text("My Favourite Foods:", 50, 50)
 
-    for(let i = 0;i<favouriteFoods.length;i++) {
-        text((i+1)+ "." + favouriteFoods[i], 50, 80 + i*30);
-    }
-}
+//     for(let i = 0;i<favouriteFoods.length;i++) {
+//         text((i+1)+ "." + favouriteFoods[i], 50, 80 + i*30);
+//     }
+// }
