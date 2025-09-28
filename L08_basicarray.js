@@ -73,10 +73,10 @@ function setup (){
     textSize(24);
     textAlign(CENTRE)
 
-    yPos=height
+    yPos=height;
 }
 function draw (){
-    background(220)
+    background(0)
 
     text("My Favourite Foods:", 50, 50)
 
