@@ -7,5 +7,5 @@
 
     fill(25, 5,5);
     text("BOUNCE !", 50, 50);
-     textSize(16);
+     textSize(24);
     }
