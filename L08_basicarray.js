@@ -68,13 +68,15 @@
 let favouriteFoods=["Pizza", "Burger", "Sushi", "Tacos","Pasta"];
 function setup (){
     createCanvas(400, 400)
+
+    fill(255, 255, 0);
     textSize(24);
     textAlign(CENTRE)
 }
 function draw (){
     background(220)
 
-    fill(255, 255, 0);
+    
     text("My Favourite Foods:", 50, 50)
 
     for(let i = 0;i<favouriteFoods.length;i++) {
