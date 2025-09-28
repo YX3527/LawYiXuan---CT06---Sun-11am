@@ -50,3 +50,6 @@ function setup (){
     textSize(24);
     textAlign(LEFT, TOP)
 }
+function draw (){
+
+}
