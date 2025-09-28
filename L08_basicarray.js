@@ -69,7 +69,7 @@ let favouriteFoods=["Pizza", "Burger", "Sushi", "Tacos","Pasta"];
 function setup (){
     createCanvas(400, 400)
     textSize(24);
-    textAlign(LEFT, TOP)
+    textAlign(CENTRE)
 }
 function draw (){
     background(220)
