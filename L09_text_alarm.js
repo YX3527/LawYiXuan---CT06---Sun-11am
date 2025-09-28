@@ -18,5 +18,5 @@ let speed = 2;
     x -=speed;
 
     if(x<=0 || x>=(width-4*24)) {
-        speed
+        speed*=-1
     }
