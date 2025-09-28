@@ -76,6 +76,7 @@ function setup (){
     yPos=height;
 }
 function draw (){
+    
     background(0);
 
     text("My Favourite Foods:", 50, 50)
