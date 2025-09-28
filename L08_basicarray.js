@@ -68,7 +68,7 @@
 let favouriteFoods=["Pizza", "Burger", "Sushi", "Tacos","Pasta"];
 let yPos;
 function setup (){
-    createCanvas(600, 600)
+    createCanvas(600, 600);
 
     fill(255, 255, 0);
     textSize(24);
