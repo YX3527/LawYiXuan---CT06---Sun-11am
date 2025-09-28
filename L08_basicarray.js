@@ -31,10 +31,10 @@ function setup() {
     createCanvas(400, 400);
     background(220)
 
-    fill(255, 255, 0);
+    fill(25, 255, 0);
     text("My name is Yi Xuan", 50, 50);
     textSize(16);
-    fill(25, 5, 0)
+    fill(25, 5, 5)
     text("My age is 12345678910", 50, 100)
     text("My favouritee activity is sleeping", 50, 150)
 
