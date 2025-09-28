@@ -27,16 +27,16 @@
 
 
 
-function setup() {
-    createCanvas(400, 400);
-    background(220)
+// function setup() {
+//     createCanvas(400, 400);
+//     background(220)
 
-    fill(25, 5,5);
-    text("My name is Yi Xuan", 50, 50);
-    textSize(16);
-    fill(25, 5, 5)
-    text("My age is 12345678910", 50, 100)
-    text("My favouritee activity is sleeping", 50, 150)
+//     fill(25, 5,5);
+//     text("My name is Yi Xuan", 50, 50);
+//     textSize(16);
+//     fill(25, 5, 5)
+//     text("My age is 12345678910", 50, 100)
+//     text("My favouritee activity is sleeping", 50, 150)
 
     
-}
+// }
