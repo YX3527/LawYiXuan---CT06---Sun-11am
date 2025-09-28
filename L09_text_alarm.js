@@ -6,6 +6,6 @@
      background(220)
 
     fill(25, 5,5);
-    text("BOUNCE !", 50, 50);
+    text("BOUNCE !", width/2, 50);
      textSize(24);
     }
