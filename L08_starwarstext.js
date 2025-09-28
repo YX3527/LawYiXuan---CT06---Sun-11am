@@ -14,3 +14,25 @@ let storyText = [
     "",
     "May the Code be with you!"
 ];
+function setup() {
+    createCanvas(600, 600); 
+
+    fill(255, 255, 0); 
+    textSize(24);
+    textAlign(CENTER); 
+
+    yPos = height; 
+}
+
+function draw() {
+
+    background(0); 
+
+    //text("My favourite foods are: ", width/2, 50); 
+    
+
+    for (let i=0; i<favFoods.length; i++) {
+        text((i+1) + "." + favFoods[i], width/2, yPos + i*50); 
+    }
+
+    yPos -=1}
