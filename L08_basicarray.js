@@ -57,6 +57,6 @@ function draw (){
     text("My Favourite Foods:", 50, 50)
 
     for(let i = 0;i<favouriteFoods.length;i++) {
-        text((i))
+        text((i+1)+ "")
     }
 }
