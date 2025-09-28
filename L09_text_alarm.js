@@ -17,7 +17,7 @@ let speed = 2;
 
     x -=speed;
 
-    if(x<=0 || x>=(width-4*24)) {
+    if(x<=0 || x>=(width-580)) {
         speed*=-1;
         console.log(x)
     }
