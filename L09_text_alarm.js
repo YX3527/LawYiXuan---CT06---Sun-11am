@@ -13,4 +13,5 @@ let speed = 2;
     background(220)
  }
     fill(25, 5,5);
-    text("BOUNCE !", x, height/2)
+    text("BOUNCE !", x, height/2);
+    
