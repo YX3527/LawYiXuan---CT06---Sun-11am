@@ -23,7 +23,7 @@ function draw() {
     //     speed *=-1; 
     // }
 
-    if(x<=0 || x>= 508) {
+    if(x<=0 || x>= 511) {
         speed *=-1; 
     }
     console.log(x); 
