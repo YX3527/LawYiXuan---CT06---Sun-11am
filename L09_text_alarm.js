@@ -15,4 +15,8 @@ let speed = 2;
     fill(25, 5,5);
     text("BOUNCE !", x, height/2);
 
-    x -=speed
+    x -=speed;
+
+    if(x<=0 || x>=(width-4*24)) {
+        speed
+    }
