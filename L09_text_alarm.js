@@ -1,14 +1,16 @@
 // write your codes here
 
+let x = 300;
+let speed = 2;
 
  function setup() {
      createCanvas(600, 600);
 
      textSize(24)
-     textAlign
-     background(220)
-
+     textAlign(LEFT);
+ }
+ function draw() {
+    background(220)
+ }
     fill(25, 5,5);
-    text("BOUNCE !", width/2, height/2);
-     textSize(24);
-    }
+    text("BOUNCE !", x, height/2)
