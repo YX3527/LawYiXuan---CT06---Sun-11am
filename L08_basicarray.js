@@ -67,7 +67,7 @@
 
 let favouriteFoods=["Pizza", "Burger", "Sushi", "Tacos","Pasta"];
 function setup (){
-    createCanvas(400, 400)
+    createCanvas(600, 600)
 
     fill(255, 255, 0);
     textSize(24);
