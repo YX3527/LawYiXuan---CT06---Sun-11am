@@ -73,7 +73,7 @@ function setup (){
     textSize(24);
     textAlign(CENTRE)
 
-    yPos=innerHeight;
+    yPos=height
 }
 function draw (){
     background(220)
