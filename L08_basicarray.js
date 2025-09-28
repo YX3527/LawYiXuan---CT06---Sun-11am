@@ -51,5 +51,7 @@ function setup (){
     textAlign(LEFT, TOP)
 }
 function draw (){
-    
+    background(220)
+
+    FileList(0)
 }
