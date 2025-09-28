@@ -76,7 +76,6 @@ function setup (){
 function draw (){
     background(220)
 
-    
     text("My Favourite Foods:", 50, 50)
 
     for(let i = 0;i<favouriteFoods.length;i++) {
