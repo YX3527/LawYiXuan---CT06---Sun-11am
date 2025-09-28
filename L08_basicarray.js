@@ -44,4 +44,4 @@
 
 
 
-let favouriteFoods=["pizza", "burger"]
+let favouriteFoods=["Pizza", "Burger", ]
