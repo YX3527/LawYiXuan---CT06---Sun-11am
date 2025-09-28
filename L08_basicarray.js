@@ -31,7 +31,7 @@ function setup() {
     createCanvas(400, 400);
     background(220)
 
-    fill(5, 5,5);
+    fill(25, 5,5);
     text("My name is Yi Xuan", 50, 50);
     textSize(16);
     fill(25, 5, 5)
