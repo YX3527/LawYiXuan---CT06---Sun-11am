@@ -73,7 +73,7 @@ function mousePressed(){
 
 function countdownUpdate(){
     if(countdown > 0){
-        contdown -= 1;
+        countdown -= 1;
     } else(
         clearInterval(interval)
     )
