@@ -92,7 +92,9 @@ let diff;
 let bgColor = 220;
 let sound;
 
-function preload()
+function preload(){
+    sound = loadS
+}
 function setup(){
     createCanvas(600, 400);
     textAlign(CENTER, CENTER);
