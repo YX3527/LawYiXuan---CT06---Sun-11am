@@ -124,7 +124,7 @@ function countdownUpdate(){
 }
 function changeVar(){
     bgColor = color(random(255), random(225), random(225));
-    sound.play();
+    sound.play()
 }
 
 function keyPressed() {
