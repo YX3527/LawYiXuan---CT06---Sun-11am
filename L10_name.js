@@ -6,7 +6,7 @@ function setup(){
     textAlign(CENTER, CENTER);
 
     interval = setInterval(countdown, 1000);
-    
+
 }
 
 function draw(){
@@ -17,4 +17,8 @@ function draw(){
     text(s, width/2, height/2);
 
 
+}
+
+function countdown(){
+    
 }
