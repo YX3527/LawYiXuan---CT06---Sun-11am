@@ -113,10 +113,10 @@ function mousePressed(){
 function countdownUpdate(){
     if(countdown > 0){
         countdown -= 1;
-    } else 
+    } else {
         clearInterval(interval);
         diff = setInterval(changeVar, 500);
-
+    }
 }
 function changeVar(){
     bgColor = color(random(255), random(225), random(225));
