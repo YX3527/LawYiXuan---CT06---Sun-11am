@@ -34,5 +34,5 @@ function setup() {
     createCanvas(600, 400);
 
 
-    inputText - create
+    inputText - createInput()
 }
