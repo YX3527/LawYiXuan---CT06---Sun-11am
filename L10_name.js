@@ -9,9 +9,9 @@ function setup(){
 function draw(){
     background(220);
 
-    let s = second()
+    let s = 59-second()
     textSize(50);
     text(s, width/2, height/2);
 
-    
+
 }
