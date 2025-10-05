@@ -70,3 +70,7 @@ function draw(){
 function mousePressed(){
     interval = setInterval(countdownUpdate, 1000)
 }
+
+function countdownUpdate(){
+    
+}
