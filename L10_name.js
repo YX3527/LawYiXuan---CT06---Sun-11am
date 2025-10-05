@@ -35,7 +35,7 @@ function setup() {
 
 
     inputText = createInput();
-    inputText.postion(width/2, height-100);
+    inputText.position(width/2, height-100);
     inputText.input(updateText); 
     inputText.size(150, 30);
 }
