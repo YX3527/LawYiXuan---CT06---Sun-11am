@@ -1,7 +1,7 @@
 // write your codes here
 
 let interval;
-let bgColor;
+let bgColor = 220;
 function setup(){
     createCanvas(400, 400)
     textAlign(CENTER, CENTER);
