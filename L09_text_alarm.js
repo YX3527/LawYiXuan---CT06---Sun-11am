@@ -60,5 +60,6 @@ function setup(){
 function draw(){
     background(220);
 
-    textSize
+    textSize(24);
+    
 }
