@@ -127,6 +127,3 @@ function changeVar(){
 
 }
 
-function changeVar(){
-    bgcolor = color(random)
-}
