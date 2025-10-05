@@ -9,5 +9,6 @@ function setup(){
 function draw(){
     background(220);
 
-    let s = 
+    let s = second()
+    textSize
 }
