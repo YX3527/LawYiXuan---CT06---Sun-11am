@@ -90,7 +90,8 @@ let interval;
 let countdown = 5;
 let diff;
 let bgColor = 220;
-let 
+let sound;
+
 function setup(){
     createCanvas(600, 400);
     textAlign(CENTER, CENTER);
