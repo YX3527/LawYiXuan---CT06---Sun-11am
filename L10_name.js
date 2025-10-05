@@ -28,7 +28,7 @@
 ///////////////////////////////////////////////////////////////
 
 let inputText;
-let userText;
+let userText = "Text ";
 
 function setup() {
     createCanvas(600, 400);
