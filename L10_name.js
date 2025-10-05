@@ -1,6 +1,7 @@
 // write your codes here
 
-let 
+let interval;
+
 function setup(){
     createCanvas(400, 400)
     textAlign(CENTER, CENTER);
