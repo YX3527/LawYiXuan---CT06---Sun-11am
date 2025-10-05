@@ -68,5 +68,5 @@ function draw(){
 }
 
 function mousePressed(){
-    interval = 
+    interval = setInterval(countdown)
 }
