@@ -93,7 +93,7 @@ let bgColor = 220;
 let sound;
 
 function preload(){
-    sound = loadS
+    sound = loadSound(assets/bossaNova.mp3)
 }
 function setup(){
     createCanvas(600, 400);
