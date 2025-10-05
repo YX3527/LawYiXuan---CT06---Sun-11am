@@ -113,5 +113,6 @@ function countdownUpdate(){
         countdown -= 1;
     } else(
         clearInterval(interval)
+        
     )
 }
