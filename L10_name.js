@@ -35,5 +35,5 @@ function setup() {
 
 
     inputText - createInput();
-    inputText.posti
+    inputText.postion(width/2,)
 }
