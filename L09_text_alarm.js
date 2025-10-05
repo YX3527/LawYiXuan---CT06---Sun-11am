@@ -72,5 +72,7 @@ function mousePressed(){
 }
 
 function countdownUpdate(){
-    
+    if(countdown > 0){
+        
+    }
 }
