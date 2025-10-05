@@ -127,4 +127,7 @@ function changeVar(){
     sound.play();
 }
 
+function keyPressed() {
+    
+}
 
