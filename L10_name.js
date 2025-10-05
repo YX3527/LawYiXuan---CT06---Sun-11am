@@ -20,5 +20,5 @@ function draw(){
 }
 
 function countdown(){
-    
+    gbColor
 }
