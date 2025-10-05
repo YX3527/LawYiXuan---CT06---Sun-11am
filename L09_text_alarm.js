@@ -78,3 +78,38 @@
 //         clearInterval(interval)
 //     )
 // }
+
+
+
+
+
+
+let interval;
+let countdown = 5;
+
+function setup(){
+    createCanvas(600, 400);
+    textAlign(CENTER, CENTER);
+}
+
+function draw(){
+    background(220);
+
+    textSize(24);
+    text('Click to start timer', width/2, height-50);
+
+    textSize(100)
+    text(countdown, width/2, height/2);
+}
+
+function mousePressed(){
+    interval = setInterval(countdownUpdate, 1000)
+}
+
+function countdownUpdate(){
+    if(countdown > 0){
+        countdown -= 1;
+    } else(
+        clearInterval(interval)
+    )
+}
