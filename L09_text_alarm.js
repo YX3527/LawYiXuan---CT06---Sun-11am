@@ -88,6 +88,8 @@
 
 let interval;
 let countdown = 5;
+let diff;
+let bgColor = 220;
 
 function setup(){
     createCanvas(600, 400);
@@ -95,7 +97,7 @@ function setup(){
 }
 
 function draw(){
-    background(220);
+    background(bgColor);
 
     textSize(24);
     text('Click to start timer', width/2, height-50);
@@ -111,8 +113,12 @@ function mousePressed(){
 function countdownUpdate(){
     if(countdown > 0){
         countdown -= 1;
-    } else(
-        clearInterval(interval)
-    )   
-    change = setInterval(changeVar, 500)
+    } else 
+        clearInterval(interval);
+        diff = setInterval(changeVar, 500);
+
+}
+function changeVar(){
+    bgColor = color(random(255), random(225), random(225));
+
 }
