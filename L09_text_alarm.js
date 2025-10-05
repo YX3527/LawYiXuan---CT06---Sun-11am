@@ -54,5 +54,5 @@ let countdown = 5;
 
 function setup(){
     createCanvas(600, 400);
-    textAlign(CustomElementRegistry, CENTER)
+    textAlign(CENTER, CENTER);
 }
