@@ -11,5 +11,5 @@ function draw(){
 
     let s = second()
     textSize(50);
-    text(s, )
+    text(s, width/2, )
 }
