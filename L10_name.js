@@ -10,7 +10,7 @@ function setup(){
 }
 
 function draw(){
-    background(220);
+    background(bgColor);
 
     let s = 59-second()
     textSize(50);
@@ -21,5 +21,5 @@ function draw(){
 
 function countdown(){
     bgColor = color(random(225), random(255), random(255));
-    
+
 }
