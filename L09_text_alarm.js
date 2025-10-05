@@ -128,5 +128,5 @@ function changeVar(){
 }
 
 function changeVar(){
-    bgcolor = color
+    bgcolor = color(random)
 }
