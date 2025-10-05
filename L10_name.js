@@ -51,5 +51,5 @@ function draw() {
 }
 
 function updateText() {
-    user
+    userText = this.value()
 }
