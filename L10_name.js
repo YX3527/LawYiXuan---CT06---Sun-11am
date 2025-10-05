@@ -10,5 +10,6 @@ function draw(){
     background(220);
 
     let s = second()
-    textSize(50)
+    textSize(50);
+    text(s, )
 }
