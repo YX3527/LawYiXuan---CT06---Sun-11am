@@ -1,5 +1,5 @@
 let speedX;
-let X = 300
+let X = 300;
 
 function setup() {
     createCanvas(600, 400);
