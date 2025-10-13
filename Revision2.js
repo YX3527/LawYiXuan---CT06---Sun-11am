@@ -23,5 +23,8 @@ function draw() {
 
 ////////////////////////////////////////////////////////////////////////////
 
+function setup() {
+    createCanvas(600, 400)
+    }
 let arr = ["apple", "orange", "banana", "mango" ]; 
-textSize
+textSize(24)
