@@ -13,7 +13,7 @@ function draw() {
 }
     noStroke();
      fill(280, 0, 0);
-    circle(width/2, height/2, 40);
+    circle(x, height/2, 40);
 
     x +=speedX;
 
