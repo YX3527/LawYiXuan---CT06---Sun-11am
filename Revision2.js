@@ -1,5 +1,6 @@
 let speedX;
 let x = 300;
+let diameter= = 40
 
 function setup() {
     createCanvas(600, 400);
