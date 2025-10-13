@@ -28,10 +28,11 @@ let arr = ["apple", "orange", "banana", "mango" ];
 function setup() {
     createCanvas(400, 400)
 }
+
 function draw() {
     background(0);
         
-     fill('yellow')
+     fill('yellow');
      textSize(24);
      textAllign(CENTER);
 
