@@ -26,7 +26,7 @@ function draw() {
 let arr = ["apple", "orange", "banana", "mango" ]; 
 
 function setup() {
-    createCanvas(600, 400)
+    createCanvas(400, 400)
     background(220)
     }
 fill('yellow')
