@@ -1,24 +1,24 @@
-let speedX=2;
-let x = 300;
-let diameter = 40;
+// let speedX=2;
+// let x = 300;
+// let diameter = 40;
 
-function setup() {
-    createCanvas(600, 400);
-}
+// function setup() {
+//     createCanvas(600, 400);
+// }
 
-function draw() {
-    background('lightblue')
+// function draw() {
+//     background('lightblue')
 
-    if(x + diameter/2 >= width || x - diameter/2 <= 0) {
-        speedX*=-1
-    }
+//     if(x + diameter/2 >= width || x - diameter/2 <= 0) {
+//         speedX*=-1
+//     }
 
-    noStroke();
-    fill(280, 0, 0);
-    circle(x, height/2, 40);
+//     noStroke();
+//     fill(280, 0, 0);
+//     circle(x, height/2, 40);
 
-    x +=speedX;
-}
+//     x +=speedX;
+// }
 
 
 ////////////////////////////////////////////////////////////////////////////
@@ -28,7 +28,7 @@ let arr = ["apple", "orange", "banana", "mango" ];
 function setup() {
     createCanvas(400, 400)
 }
-    function draw() {
+    function draw() {}
     background(0);
         
      fill('yellow')
@@ -36,8 +36,5 @@ function setup() {
      textAllign(CENTER);
 
      for(let i=0; i<arr.length; i++) {
-        text(arr[i], width/2, 50 + i*50)
+        text(arr[i], width/2, 50 + i*50);
      }
-    }
-fill('yellow')
-textSize(24)
