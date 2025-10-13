@@ -33,7 +33,9 @@ function setup() {
         
      fill('yellow')
      textSize(24);
-     textAllign(CENTER)
+     textAllign(CENTER);
+
+     
     }
 fill('yellow')
 textSize(24)
