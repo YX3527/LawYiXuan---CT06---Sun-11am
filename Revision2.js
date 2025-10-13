@@ -8,6 +8,7 @@ function draw() {
     background('lightblue')
 
     if(x + diameter/2>width || x - diameter/2 < 0)
+        speedX
     
     noStroke();
      fill(280, 0, 0);
