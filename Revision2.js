@@ -23,10 +23,11 @@ function draw() {
 
 ////////////////////////////////////////////////////////////////////////////
 
+let arr = ["apple", "orange", "banana", "mango" ]; 
+
 function setup() {
     createCanvas(600, 400)
     background(220)
     }
-let arr = ["apple", "orange", "banana", "mango" ]; 
 fill('yellow')
 textSize(24)
