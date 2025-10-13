@@ -28,5 +28,5 @@ function setup() {
     background(220)
     }
 let arr = ["apple", "orange", "banana", "mango" ]; 
-
+fill('yellow')
 textSize(24)
