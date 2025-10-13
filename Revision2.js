@@ -36,7 +36,7 @@ function setup() {
      textAllign(CENTER);
 
      for(let i=0; i<arr.length; i++) {
-        text(arr[i])
+        text(arr[i], width/2)
      }
     }
 fill('yellow')
