@@ -13,9 +13,9 @@ function draw() {
     //     speedX*=-1
     // }
 
-    // noStroke();
-    //  fill(280, 0, 0);
-    // circle(x, height/2, 40);
+    noStroke();
+     fill(280, 0, 0);
+    circle(x, height/2, 40);
 
     // x +=speedX;
 }
