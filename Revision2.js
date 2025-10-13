@@ -31,6 +31,7 @@ function setup() {
     function draw() {
         background(0);
         
+        fill('yellow')
     }
 fill('yellow')
 textSize(24)
