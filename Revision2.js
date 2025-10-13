@@ -23,4 +23,4 @@ function draw() {
 
 ////////////////////////////////////////////////////////////////////////////
 
-let arr = ["apple", "orange", "banana", "mango"]
+let arr = ["apple", "orange", "banana", "mango" ]; 
