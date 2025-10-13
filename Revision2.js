@@ -28,7 +28,7 @@ let arr = ["apple", "orange", "banana", "mango" ];
 function setup() {
     createCanvas(400, 400)
 }
-    function draw() {}
+    function draw() {
     background(0);
         
      fill('yellow')
@@ -37,4 +37,6 @@ function setup() {
 
      for(let i=0; i<arr.length; i++) {
         text(arr[i], width/2, 50 + i*50);
+    
      }
+    }
