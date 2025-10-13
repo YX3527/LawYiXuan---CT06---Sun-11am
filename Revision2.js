@@ -1,4 +1,4 @@
-let speed;
+let speedX;
 
 function setup() {
     createCanvas(600, 400);
