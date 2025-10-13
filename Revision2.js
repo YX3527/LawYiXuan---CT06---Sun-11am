@@ -29,10 +29,11 @@ function setup() {
     createCanvas(400, 400)
 }
     function draw() {
-        background(0);
+    background(0);
         
-        fill('yellow')
-        textSize(24)
+     fill('yellow')
+     textSize(24);
+
     }
 fill('yellow')
 textSize(24)
