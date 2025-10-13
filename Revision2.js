@@ -2,5 +2,5 @@ let speed;
 
 function setup() {
     createCanvas(600, 400);
-    background(0, 0, 800)
+    background(0, 75, 75)
 }
