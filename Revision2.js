@@ -9,7 +9,7 @@ function setup() {
 function draw() {
     background('lightblue')
 
-    if(x + diameter/2 >= width || x - diameter/2 < 0) {
+    if(x + diameter/2 >= width || x - diameter/2 <= 0) {
         speedX*=-1
     }
 
