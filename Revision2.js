@@ -32,9 +32,9 @@ function setup() {
 function draw() {
     background(0);
 }
-    //  fill('yellow');
-    //  textSize(24);
-    //  textAlign(CENTER);
+     fill('yellow');
+     textSize(24);
+     textAlign(CENTER);
 
     //  for(let i=0; i<arr.length; i++) {
     //     text(arr[i], width/2, 50 + i*50);
