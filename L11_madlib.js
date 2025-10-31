@@ -55,8 +55,8 @@ function draw(){
 
 // call this function when mouse is pressed
 function buttonStoryClicked(){
-    console.log("this button is being clicked.");
-    console.log(inputNoun.value());
+    // console.log("this button is being clicked.");
+    // console.log(inputNoun.value());
 }
 // let's join everything back
    storyText = ranstory.replace("{noun}", inputNoun.value());
