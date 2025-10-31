@@ -64,3 +64,5 @@ function buttonStoryClicked(){
    storyText = storyText.replace("{adjective}", inputAdjective.value());
    storyText = storyText.replace("{adverb}", inputAdverb.value());
    storyText = storyText.replace("{place}", inputPlace.value());
+
+   console/log
