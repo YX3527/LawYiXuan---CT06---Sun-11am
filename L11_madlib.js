@@ -33,7 +33,7 @@ function setup(){
     " Once upon a time, a {noun} {verb} {adver} {adjective} at the {place}"
    ];
 
-   ranstory = random(storyTemplate); // choose randomly from the array
+  
 }
 
 
