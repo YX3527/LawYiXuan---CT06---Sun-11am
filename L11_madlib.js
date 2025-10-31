@@ -65,4 +65,4 @@ function buttonStoryClicked(){
    storyText = storyText.replace("{adverb}", inputAdverb.value());
    storyText = storyText.replace("{place}", inputPlace.value());
 
-   console/log
+   console.log(storyText)
