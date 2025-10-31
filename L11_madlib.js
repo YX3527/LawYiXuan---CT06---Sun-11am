@@ -55,7 +55,7 @@ function draw(){
     pop();
 
     //display the story text
-    text(storyText, 50, 400)
+    text(storyText, 50, 450, 200, 100)
     pop();
 }
 
