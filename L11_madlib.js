@@ -52,10 +52,11 @@ function draw(){
     text("Adjective:", 50, 200);
     text("Adverb", 50, 250);
     text("Place:", 50, 300);
+        //display the story text
+    text(storyText, 50, 450, 200, 100);//
     pop();
 
-    //display the story text
-    text(storyText, 50, 450, 200, 100);//
+
     
 }
 
