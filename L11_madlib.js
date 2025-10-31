@@ -60,3 +60,7 @@ function buttonStoryClicked(){
 }
 // let's join everything back
    storyText = ranstory.replace("{noun}", inputNoun.value());
+   storyText = ranstory.replace("{noun}", inputNoun.value());
+   storyText = ranstory.replace("{noun}", inputNoun.value());
+   storyText = ranstory.replace("{noun}", inputNoun.value());
+   storyText = ranstory.replace("{noun}", inputNoun.value());
