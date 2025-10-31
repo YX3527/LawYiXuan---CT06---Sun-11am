@@ -8,10 +8,10 @@ function setup(){
     createCanvas(400, 600);
 
     // create the inputs
-    inputNoun = createInput("e.g. cat");
+    inputNoun = createInput("cat");
     inputNoun.position(200, 100);
 
-    inputVerb = createInput("e.g. swim");
+    inputVerb = createInput("swim");
     inputVerb.position(200, 150);
 
     inputAdjective = createInput("e.g. happy");
