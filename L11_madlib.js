@@ -1,4 +1,4 @@
-// write your codes herelet inputNoun, inputVerb, inputAdjective, inputAdverb, inputPlace; // input variables
+let inputNoun, inputVerb, inputAdjective, inputAdverb, inputPlace; // input variables
 
 let btnGenStory;
 
