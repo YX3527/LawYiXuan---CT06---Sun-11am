@@ -56,6 +56,7 @@ function draw(){
 
     //display the story text
     text(storyText, 50, 400)
+    pop();
 }
 
 // call this function when mouse is pressed
