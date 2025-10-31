@@ -34,7 +34,7 @@ function setup(){
     " Once upon a time, a (noun) (verb) (adverb) (adjective) at the (place)"
    ];
 
-   ranstory = ramdom(storyTemplpate); //
+   ranstory = ramdom(storyTemplpate); //choose randomly
 
 function draw(){
     background("teal");
