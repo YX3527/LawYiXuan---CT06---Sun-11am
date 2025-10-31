@@ -2,7 +2,7 @@ let inputNoun, inputVerb, inputAdjective, inputAdverb, inputPlace; // input vari
 
 let btnGenStory;
 
-let storyTex
+let storyText, storyTemplate
 
 function setup(){
     createCanvas(400, 600);
