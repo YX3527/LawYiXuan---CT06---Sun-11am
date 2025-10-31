@@ -31,6 +31,7 @@ function setup(){
 
 // define the values for storyTemplate
 
+
 function draw(){
     background("teal");
 
