@@ -31,7 +31,7 @@ function setup(){
 
 // define the values for storyTemplate
    storyTemplate = ["the (adjective) (noun) went (verb) at (place).",
-    
+    " Once upon a time "
    ]
 
 function draw(){
