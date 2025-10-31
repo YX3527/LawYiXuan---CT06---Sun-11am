@@ -30,7 +30,7 @@ function setup(){
 }
 
 // define the values for storyTemplate
-   storyTemplate = ["the (adjective) (noun) went (verb) at (place)."]
+   storyTemplate = ["the (adjective) (noun) went (verb) at (place).",]
 
 function draw(){
     background("teal");
