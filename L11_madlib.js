@@ -29,7 +29,7 @@ function setup(){
     btnGenStory.mousePressed(buttonStoryClicked) // calls a function
 }
 
-// define the value
+// define the values for storyTemplate
 
 function draw(){
     background("teal");
