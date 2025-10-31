@@ -59,5 +59,14 @@ function draw(){
 function buttonStoryClicked(){
     // console.log("this button is being clicked.");
     // console.log(inputNoun.value());
+     ranstory = random(storyTemplate); // choose randomly from the array
+// let's join everything back
+   storyText = ranstory.replace("{noun}", inputNoun.value());
+   storyText = storyText.replace("{verb}", inputVerb.value());
+   storyText = storyText.replace("{adjective}", inputAdjective.value());
+   storyText = storyText.replace("{adverb}", inputAdverb.value());
+   storyText = storyText.replace("{place}", inputPlace.value());
+
+   console.log(storyText)
 }
 
