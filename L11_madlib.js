@@ -30,7 +30,7 @@ function setup(){
 }
 
 // define the values for storyTemplate
-   storyTemplate = ["the(adjective) ("]
+   storyTemplate = ["the(adjective) (noun) went "]
 
 function draw(){
     background("teal");
