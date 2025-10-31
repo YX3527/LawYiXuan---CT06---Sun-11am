@@ -37,7 +37,7 @@ function setup(){
    ranstory = ramdom(storyTemplpate); // choose randomly from the array
 
    // let's join everything back
-   storyText = ranstory.replace("(noun", )
+   storyText = ranstory.replace("(noun)", "dog")
 
 function draw(){
     background("teal");
