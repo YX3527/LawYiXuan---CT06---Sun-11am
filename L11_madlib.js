@@ -14,13 +14,13 @@ function setup(){
     inputVerb = createInput("swim");
     inputVerb.position(200, 150);
 
-    inputAdjective = createInput("e.g. happy");
+    inputAdjective = createInput("happy");
     inputAdjective.position(200, 200);
 
-    inputAdverb = createInput("e.g. happily");
+    inputAdverb = createInput("happily");
     inputAdverb.position(200, 250);
 
-    inputPlace = createInput("e.g. Ang Mo Kio");
+    inputPlace = createInput("Ang Mo Kio");
     inputPlace.position(200, 300);
 
     // add a button
