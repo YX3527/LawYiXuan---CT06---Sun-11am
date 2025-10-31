@@ -29,7 +29,7 @@ function setup(){
     btnGenStory.mousePressed(buttonStoryClicked) // calls a function
 }
 
-//
+// define the value
 
 function draw(){
     background("teal");
