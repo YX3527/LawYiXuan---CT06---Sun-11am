@@ -29,6 +29,8 @@ function setup(){
     btnGenStory.mousePressed(buttonStoryClicked) // calls a function
 }
 
+//
+
 function draw(){
     background("teal");
 
