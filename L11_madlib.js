@@ -53,6 +53,8 @@ function draw(){
     text("Adverb", 50, 250);
     text("Place:", 50, 300);
     pop();
+
+    
 }
 
 // call this function when mouse is pressed
