@@ -54,7 +54,8 @@ function draw(){
     text("Place:", 50, 300);
     pop();
 
-    //
+    //display the story text
+    
 }
 
 // call this function when mouse is pressed
