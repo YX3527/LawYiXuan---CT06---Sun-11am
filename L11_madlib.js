@@ -27,14 +27,16 @@ function setup(){
     btnGenStory = createButton("Generate Story");
     btnGenStory.position(200, 350);
     btnGenStory.mousePressed(buttonStoryClicked) // calls a function
-}
 
-// define the values for storyTemplate
+    // define the values for storyTemplate
    storyTemplate = ["the {adjective} {noun} went {verb} at {place}.",
     " Once upon a time, a {noun} {verb} {adver} {adjective} at the {place}"
    ];
 
    ranstory = random(storyTemplate); // choose randomly from the array
+}
+
+
 
 function draw(){
     background("teal");
