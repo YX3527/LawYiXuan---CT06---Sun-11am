@@ -36,9 +36,6 @@ function setup(){
 
    ranstory = ramdom(storyTemplpate); // choose randomly from the array
 
-   // let's join everything back
-   storyText = ranstory.replace("{noun}", inputNoun.value());
-
 function draw(){
     background("teal");
 
@@ -61,3 +58,5 @@ function buttonStoryClicked(){
     console.log("this button is being clicked.");
     console.log(inputNoun.value());
 }
+// let's join everything back
+   storyText = ranstory.replace("{noun}", inputNoun.value());
