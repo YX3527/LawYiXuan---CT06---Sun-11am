@@ -36,7 +36,7 @@ function setup(){
 
    ranstory = ramdom(storyTemplpate); // choose randomly from the array
 
-   //lets 
+   / /let's join everything back
 
 function draw(){
     background("teal");
