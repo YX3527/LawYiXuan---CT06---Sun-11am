@@ -19,12 +19,12 @@ let button;
         textBox.position(width/2-textBox.width/2, 200);
 
         button = createButton('Guess');
-        button.position(width/2+textBox.width/2 + textBox.width + 30, 200)
+        button.position(width/2+textBox.width/2 + textBox.width + 30, 200);
     }
     function draw() {
         background(220);
         textAlign(CENTER, CENTER)
         text("Guess the Word!", width/2, 50);
         text("Attempts: " + attempts);
-        text()
+        text("Hint")
     }
