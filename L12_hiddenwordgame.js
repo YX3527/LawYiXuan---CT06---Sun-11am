@@ -12,4 +12,5 @@ let words = [
     }
     function draw() {
         text("Guess the Word!", width/2, 50);
+        text()
     }
