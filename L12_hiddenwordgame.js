@@ -35,5 +35,5 @@ let textDis;
     }
 
     function display() {
-        text = text
+        textDis = textBox.value
     }
