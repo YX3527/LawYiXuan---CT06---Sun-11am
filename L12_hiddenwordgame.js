@@ -29,7 +29,7 @@ let textDis;
         text("Guess the Word!", width/2, 50);
         text("Attempts: " + attempts);
         text("Hint: " + ranWord, width/2, 150);
-        text(textDis, width/2, 150)
+        text(textDis, width/2, 250)
     }
 
     function display() {
