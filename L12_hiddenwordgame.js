@@ -16,7 +16,7 @@ let button;
         createCanvas(600, 400);
 
         textBox = createInput();
-        
+        textBox.position
     }
     function draw() {
         text("Guess the Word!", width/2, 50);
