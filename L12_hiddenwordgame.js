@@ -31,4 +31,6 @@ let textt;
         text("Hint: " + ranWord, width/2, 150);
     }
 
-    function display()
+    function display() {
+        text = text
+    }
