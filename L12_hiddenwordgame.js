@@ -11,7 +11,7 @@ let attempts = 0;
 let ranWord = "";
 let textBox;
 let button;
-let textt;
+let textDis;
 
     function setup() {
         createCanvas(600, 400);
@@ -29,6 +29,7 @@ let textt;
         text("Guess the Word!", width/2, 50);
         text("Attempts: " + attempts);
         text("Hint: " + ranWord, width/2, 150);
+        
     }
 
     function display() {
