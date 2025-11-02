@@ -83,6 +83,8 @@ let btnGenStory;
 
 let storyText, storyTemplate;
 
+
+
 function setup(){
     createCanvas(400, 600);
 
