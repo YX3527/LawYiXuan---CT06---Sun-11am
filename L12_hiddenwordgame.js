@@ -8,5 +8,5 @@ let words = [
     "pineapple", "furniture", "telephone", "lighthouse"];
 
     function setup() {
-        create
+        createCanvas(600, 400)
     }
