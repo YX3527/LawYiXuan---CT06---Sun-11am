@@ -27,5 +27,5 @@ let button;
         textAlign(CENTER, CENTER)
         text("Guess the Word!", width/2, 50);
         text("Attempts: " + attempts);
-        text("Hint: " + ranWord, width/2)
+        text("Hint: " + ranWord, width/2, 150)
     }
