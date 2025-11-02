@@ -11,5 +11,5 @@ let words = [
         createCanvas(600, 400);
     }
     function draw() {
-        text("Guess the Word!", width/2)
+        text("Guess the Word!", width/2, 50);
     }
