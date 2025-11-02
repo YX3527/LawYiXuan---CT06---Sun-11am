@@ -9,6 +9,7 @@ let words = [
 
 let attempts = 0;
 let ranWord = "";
+let textBox = 
 
     function setup() {
         createCanvas(600, 400);
