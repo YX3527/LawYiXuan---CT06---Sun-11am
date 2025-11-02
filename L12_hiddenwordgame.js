@@ -19,7 +19,8 @@ let button;
         textBox.position(width/2-textBox.width/2, 200);
     }
     function draw() {
-        background
+        background(220);
+        textAl
         text("Guess the Word!", width/2, 50);
         text("Attempts: " + attempts);
         text()
