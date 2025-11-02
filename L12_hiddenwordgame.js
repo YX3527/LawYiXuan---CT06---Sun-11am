@@ -7,7 +7,8 @@ let words = [
     "football", "bathroom", "sandwich", "airplane", "umbrella", "medicine", "chocolate", "software", 
     "pineapple", "furniture", "telephone", "lighthouse"];
 
-let
+let attempts = 0;
+let 
 
     function setup() {
         createCanvas(600, 400);
