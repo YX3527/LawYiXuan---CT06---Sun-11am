@@ -30,3 +30,5 @@ let textt;
         text("Attempts: " + attempts);
         text("Hint: " + ranWord, width/2, 150);
     }
+
+    function display()
