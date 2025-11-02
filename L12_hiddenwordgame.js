@@ -1,6 +1,6 @@
 // write your codes here
 
-let words = ["javascript", "p5js", "canvas", "coding", "openai", "geometry", "sketch", "variable"];
+let words = ["FAT CAT", "p5js", "canvas", "coding", "openai", "geometry", "sketch", "variable"];
 let secretWord;
 let guessedLetters = [];
 let correctLetters = [];
