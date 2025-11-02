@@ -20,7 +20,7 @@ let button;
     }
     function draw() {
         background(220);
-        textAl
+        textAlign(CENTER, CENTER)
         text("Guess the Word!", width/2, 50);
         text("Attempts: " + attempts);
         text()
