@@ -83,6 +83,6 @@ function scrambleWord(word) {
      }
     return arr.join('');
 }
-function pickNewWorld() {
-    ranWorld
+function pickNewWord() {
+    ranWord
 }
