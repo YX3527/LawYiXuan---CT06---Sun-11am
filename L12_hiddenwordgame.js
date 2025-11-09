@@ -44,4 +44,6 @@ function display() {
 
 function checkGuess() {
     attempts++;
+
+    let guess
 }
