@@ -35,7 +35,7 @@ function draw() {
     background(220); 
     textAlign(CENTER, CENTER); 
     textSize(24); 
-    text("Guess the Word!", width/2, 50); 
+    text("World!", width/2, 50); 
     text("Attempts: " + attempts, width/2, 100); 
     text("Scrambled Word: " + hiddenWord, width/2, 150); 
     text(message, width/2, 250); 
