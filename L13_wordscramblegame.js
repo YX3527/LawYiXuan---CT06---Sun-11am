@@ -26,7 +26,7 @@ function setup() {
     button.mousePressed(checkGuess); 
 
     button2 = createButton('Rescramble'); 
-    button2.position(width/2-textBox.width/2 + textBox.width + 30, 200);
+    button2.position(button.X);
     button2.mousePressed(checkGuess); 
 
    randWord = random(words);  
