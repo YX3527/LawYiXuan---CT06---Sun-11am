@@ -43,5 +43,5 @@ function display() {
 }
 
 function checkGuess() {
-    
+    attempts
 }
