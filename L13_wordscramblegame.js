@@ -80,6 +80,6 @@ function scrambleWord(word) {
 
      for (let i=arr.length; i<0; i--) {
         let j = floor(random(i+1));
-
+        []
      }
 }
