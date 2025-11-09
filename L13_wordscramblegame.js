@@ -75,11 +75,11 @@ function getCorrectLetters(guess, randWord) {
     return correctLetters; 
 }
 
-function scrambleWord() {
+function scrambleWord(word) {
      let arr = words.split(''); 
 
      for (let i=arr.length; i<0; i--) {
         let j = floor(random(i+1));
-        
+
      }
 }
