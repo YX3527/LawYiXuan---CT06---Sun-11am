@@ -84,5 +84,6 @@ function scrambleWord(word) {
     return arr.join('');
 }
 function pickNewWord() {
-    ranWord
+   randWord = random(words);  
+   console.log(randWord);
 }
