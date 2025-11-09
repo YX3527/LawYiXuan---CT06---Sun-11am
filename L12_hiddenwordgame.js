@@ -45,5 +45,5 @@ function display() {
 function checkGuess() {
     attempts++;
 
-    let guess
+    let guess = textBox.value
 }
