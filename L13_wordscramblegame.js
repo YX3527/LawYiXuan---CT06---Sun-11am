@@ -1,6 +1,3 @@
-// write your codes here
-
-
 let words = [
     "elephant", "backpack", "keyboard", "hospital", "sunlight", "raincoat", "notebook", "shoulder", 
     "football", "bathroom", "sandwich", "airplane", "umbrella", "medicine", "chocolate", "software", 
@@ -13,7 +10,8 @@ let button;
 let textDis; 
 let message; 
 let hiddenWord; 
-let score;
+let score = 0; 
+let button2; 
 
 function setup() {
     createCanvas(600, 400); 
@@ -26,12 +24,12 @@ function setup() {
     button.mousePressed(checkGuess); 
 
     button2 = createButton('Rescramble'); 
-    button2.position(button.x - button2.width - 30, 200);
+    button2.position(textBox.x - button2.width - 30, 200);
     button2.mousePressed(scrambleWord); 
 
    randWord = random(words);  
    console.log(randWord);
-//    hiddenWord = randWord[0].toUpperCase() + " " + "_ ".repeat(randWord.length-1); 
+   //hiddenWord = randWord[0].toUpperCase() + " " + "_ ".repeat(randWord.length-1); 
 }
 
 function draw() {
@@ -40,7 +38,7 @@ function draw() {
     textAlign(CENTER, CENTER); 
     textSize(24); 
     text("Word Scramble Game!", width/2, 50); 
-    text("Attempts: " + attempts, width/2, 100); 
+    text("Scores: " + score, width/2, 100); 
     text("Scrambled Word: " + hiddenWord, width/2, 150); 
     text(message, width/2, 250); 
 
@@ -75,4 +73,8 @@ function getCorrectLetters(guess, randWord) {
         }
     }
     return correctLetters; 
+}
+
+function scrambleWord() {
+
 }
