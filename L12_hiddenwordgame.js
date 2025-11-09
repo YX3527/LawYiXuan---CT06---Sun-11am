@@ -42,4 +42,6 @@ function display() {
     textDis = textBox.value(); 
 }
 
-function checkGuess
+function checkGuess() {
+    
+}
