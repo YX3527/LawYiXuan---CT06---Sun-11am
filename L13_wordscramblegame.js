@@ -79,6 +79,6 @@ function scrambleWord() {
      let arr = words.split(''); 
 
      for (let i=arr.length; i<0; i--) {
-        let j = 
+        let j = floor(random(i+1))
      }
 }
