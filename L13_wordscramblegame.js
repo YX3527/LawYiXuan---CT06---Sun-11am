@@ -81,5 +81,5 @@ function scrambleWord(word) {
         let j = floor(random(i+1));
         [arr[i], arr[i]] = [arr[j], arr[i]];
      }
-    return arr.join('')
+    return arr.join('');
 }
