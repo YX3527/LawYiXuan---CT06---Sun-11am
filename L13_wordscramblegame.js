@@ -27,8 +27,7 @@ function setup() {
     button2.position(textBox.x - button2.width - 30, 200);
     button2.mousePressed(scrambleWord); 
 
-   randWord = random(words);  
-   console.log(randWord);
+
    //hiddenWord = randWord[0].toUpperCase() + " " + "_ ".repeat(randWord.length-1); 
 }
 
@@ -82,5 +81,5 @@ function scrambleWord(word) {
         let j = floor(random(i+1));
         [arr[i], arr[i]] = [arr[j], arr[i]];
      }
-     
+
 }
