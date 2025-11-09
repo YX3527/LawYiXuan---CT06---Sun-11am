@@ -102,24 +102,24 @@
 //   }
 // }
 
-function mousePressed() {
-  if (onGround && !gameOver) {
-    player.vy = -jumpForce;
-    onGround = false;
-  }
-}
+// function mousePressed() {
+//   if (onGround && !gameOver) {
+//     player.vy = -jumpForce;
+//     onGround = false;
+//   }
+// }
 
-function resetGame() {
-  player = {
-    x: 100,
-    y: height - 100,
-    vy: 0,
-    size: 30
-  };
-  obstacles = [];
-  score = 0;
-  gameOver = false;
-}
+// function resetGame() {
+//   player = {
+//     x: 100,
+//     y: height - 100,
+//     vy: 0,
+//     size: 30
+//   };
+//   obstacles = [];
+//   score = 0;
+//   gameOver = false;
+// }
 ///////////////////////////////////////////////////////////////////////////
 
 let playerX = 100;
