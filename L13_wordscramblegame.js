@@ -25,6 +25,10 @@ function setup() {
     button.position(width/2-textBox.width/2 + textBox.width + 30, 200);
     button.mousePressed(checkGuess); 
 
+    button2 = createButton('Guess'); 
+    button.position(width/2-textBox.width/2 + textBox.width + 30, 200);
+    button.mousePressed(checkGuess); 
+
    randWord = random(words);  
    console.log(randWord);
 //    hiddenWord = randWord[0].toUpperCase() + " " + "_ ".repeat(randWord.length-1); 
