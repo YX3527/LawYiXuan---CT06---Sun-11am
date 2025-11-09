@@ -23,7 +23,7 @@ function setup() {
 
     button = createButton('Submit'); 
     button.position(width/2-textBox.width/2 + textBox.width + 30, 200);
-    button.mousePressed(scrambleWord); 
+    button.mousePressed(checkGuess); 
 
     button2 = createButton('Rescramble'); 
     button2.position(button.x - button2.width - 30, 200);
