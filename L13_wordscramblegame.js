@@ -27,7 +27,7 @@ function setup() {
 
     button2 = createButton('Rescramble'); 
     button2.position(button.x - button2.width - 30, 200);
-    button2.mousePressed(checkGuess); 
+    button2.mousePressed(scrambleWord); 
 
    randWord = random(words);  
    console.log(randWord);
