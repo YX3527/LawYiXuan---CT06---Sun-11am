@@ -46,4 +46,5 @@ function checkGuess() {
     attempts++;
 
     let guess = textBox.value().toLowerCase();
+    
 }
