@@ -19,7 +19,7 @@ function setup() {
 
     button = createButton('Guess'); 
     button.position(width/2-textBox.width/2 + textBox.width + 30, 200);
-    button.mousePressed(display); 
+    button.mousePressed(check); 
 
    randWord = random(words);
    randWord = randWord[0].toUpperCase() + " " + "_ ".repeat(randWord.length-1);  
