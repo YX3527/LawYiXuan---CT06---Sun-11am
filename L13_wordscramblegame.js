@@ -76,5 +76,9 @@ function getCorrectLetters(guess, randWord) {
 }
 
 function scrambleWord() {
-     let arr = words.split('');
+     let arr = words.split(''); 
+
+     for (let i=arr.length; i<0; i--) {
+        
+     }
 }
