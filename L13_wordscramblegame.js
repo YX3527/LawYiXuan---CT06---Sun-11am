@@ -21,11 +21,11 @@ function setup() {
     textBox = createInput(); 
     textBox.position(width/2-textBox.width/2, 200); 
 
-    button = createButton('Guess'); 
+    button = createButton('Submit'); 
     button.position(width/2-textBox.width/2 + textBox.width + 30, 200);
     button.mousePressed(checkGuess); 
 
-    button2 = createButton('Submit'); 
+    button2 = createButton(''); 
     button.position(width/2-textBox.width/2 + textBox.width + 30, 200);
     button.mousePressed(checkGuess); 
 
