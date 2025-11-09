@@ -41,3 +41,5 @@ function draw() {
 function display() {
     textDis = textBox.value(); 
 }
+
+function checkGuess
